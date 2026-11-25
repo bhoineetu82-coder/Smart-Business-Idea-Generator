@@ -1,0 +1,12 @@
+# Files and folders to exclude from git
+# -------------------------------------------------------
+
+# Node modules (auto-generated, very large — never commit)
+node_modules/
+
+# Environment file with secrets (API keys — never commit!)
+backend/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
